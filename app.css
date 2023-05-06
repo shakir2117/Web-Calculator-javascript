@@ -1,0 +1,96 @@
+body{
+    background-color:cornsilk;
+}
+h1{
+    text-align: center;
+    color: green;
+}
+.screen, .result {
+    background-color: rgb(141, 143, 143);
+    border: 2px solid black;
+    color: aliceblue;
+    padding: 10px;
+    font-size: medium;
+    cursor: default;
+    width: 100%;
+    margin:auto;
+    margin-bottom: 10px;
+}
+.screen, .res {
+    background-color: rgb(141, 143, 143);
+    border: 2px solid black;
+    color: aliceblue;
+    padding: 10px;
+    font-size: medium;
+    cursor: default;
+    width: 100%;
+    margin:auto;
+    margin-bottom: 10px;
+}
+input[type='button']:hover{
+    background-color: whitesmoke;
+}
+input[type='button']:active{
+    background-color: orange;
+}
+.operator{
+    background-color: green;
+    padding: 5px;
+    color: black;
+    border: solid black 2px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+.number{
+    padding: 5px;
+    height: 40px;
+    color: black;
+    border: solid black 2px;
+    width: 100%;
+    cursor: pointer;
+}
+.decimal{
+    background-color:aquamarine;
+    padding: 5px;
+    height: 40px;
+    color: black;
+    border: solid black 2px;
+    width: 100%;
+    cursor: pointer;
+}
+.clear{
+    background-color: rgb(255, 255, 0);
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: medium;
+    cursor: default;
+    margin:auto;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.equal{
+    background-color:rgb(34, 255, 0);
+    padding: 5px;
+    height: 40px;
+    color: black;
+    border: solid black 2px;
+    width: 100%;
+    cursor: pointer;
+}
+.container{
+    background-color: white;
+    padding: 15px;
+    color: black;
+    border: solid black 2px;
+    width: 40%;
+    display: block;
+    align-self: center;
+    border-radius: 10px;
+    margin: 100px auto;
+    box-shadow: 5px 10px 20px black;
+}
+table{
+    width: 100%;
+}
